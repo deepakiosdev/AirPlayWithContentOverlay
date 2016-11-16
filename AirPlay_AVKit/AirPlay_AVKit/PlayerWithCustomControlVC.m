@@ -62,7 +62,7 @@
 - (void)showWatermark {
     if (_playerVC.contentOverlayView.subviews.count == 0) {
         
-        UILabel *waterMarkLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 150, 200, 70)];
+        UILabel *waterMarkLabel = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 200, 70)];
         waterMarkLabel.text = @"Player Watermark";
         [waterMarkLabel sizeToFit];
         waterMarkLabel.textColor = [UIColor whiteColor];
