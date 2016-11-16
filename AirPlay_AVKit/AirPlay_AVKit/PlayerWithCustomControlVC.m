@@ -56,7 +56,7 @@
     _playerVC.player.allowsExternalPlayback                             = YES;
     _playerVC.player.usesExternalPlaybackWhileExternalScreenIsActive    = YES;
     
-    [self performSelector:@selector(showWatermark) withObject:nil afterDelay:3.0];
+    [self performSelector:@selector(showWatermark) withObject:nil afterDelay:1.5];
 }
 
 - (void)showWatermark {
